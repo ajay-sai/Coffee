@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Cheekums, Will you be my Valentine?</title>
+  <title>Weekend Date Invitation
 
   <!-- Confetti library -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
@@ -129,6 +129,47 @@
       display: block;
     }
 
+    .restaurant-list {
+      text-align: left;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .restaurant-list h3 {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .restaurant-card {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .restaurant-card h4 {
+      margin: 0 0 8px 0;
+      color: #ff3b7a;
+    }
+
+    .restaurant-card p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .restaurant-card a {
+      color: #ff3b7a;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .restaurant-card .separator {
+      margin: 0 8px;
+      color: #999;
+    }
+
     @keyframes pop {
       from { transform: scale(.96); opacity: 0; }
       to { transform: scale(1); opacity: 1; }
@@ -214,35 +255,35 @@
       <section class="result" id="result2">
         <h2>YAY! 🎉</h2>
         <div class="restaurant-list">
-          <h3 style="margin-top: 20px; margin-bottom: 15px;">Choose your favorite spot!</h3>
-          <div style="text-align: left; max-width: 500px; margin: 0 auto;">
-            <div style="background: white; padding: 15px; margin: 10px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h4 style="margin: 0 0 8px 0; color: #ff3b7a;">☕ Apotheos Roastery</h4>
-              <p style="margin: 5px 0; font-size: 14px;">740 W Peachtree St NW, Atlanta, GA 30308</p>
-              <a href="https://maps.app.goo.gl/CsbtytnZ3zorp7RZ6?g_st=ic" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🗺️ Open in Maps</a>
-              <span style="margin: 0 8px; color: #999;">|</span>
-              <a href="https://apotheosroastery.com" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🌐 Website</a>
+          <h3>Choose your favorite spot!</h3>
+          <div>
+            <div class="restaurant-card">
+              <h4>☕ Apotheos Roastery</h4>
+              <p>740 W Peachtree St NW, Atlanta, GA 30308</p>
+              <a href="https://maps.app.goo.gl/CsbtytnZ3zorp7RZ6?g_st=ic" target="_blank" rel="noopener noreferrer">🗺️ Open in Maps</a>
+              <span class="separator">|</span>
+              <a href="https://apotheosroastery.com" target="_blank" rel="noopener noreferrer">🌐 Website</a>
             </div>
-            <div style="background: white; padding: 15px; margin: 10px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h4 style="margin: 0 0 8px 0; color: #ff3b7a;">☕ Café Intermezzo</h4>
-              <p style="margin: 5px 0; font-size: 14px;">1065 Peachtree St NE, Atlanta, GA 30309</p>
-              <a href="https://maps.app.goo.gl/PZXtTngTPLRkFkaa8?g_st=ic" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🗺️ Open in Maps</a>
-              <span style="margin: 0 8px; color: #999;">|</span>
-              <a href="https://cafeintermezzo.com" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🌐 Website</a>
+            <div class="restaurant-card">
+              <h4>☕ Café Intermezzo</h4>
+              <p>1065 Peachtree St NE, Atlanta, GA 30309</p>
+              <a href="https://maps.app.goo.gl/PZXtTngTPLRkFkaa8?g_st=ic" target="_blank" rel="noopener noreferrer">🗺️ Open in Maps</a>
+              <span class="separator">|</span>
+              <a href="https://cafeintermezzo.com" target="_blank" rel="noopener noreferrer">🌐 Website</a>
             </div>
-            <div style="background: white; padding: 15px; margin: 10px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h4 style="margin: 0 0 8px 0; color: #ff3b7a;">☕ Land of a Thousand Hills</h4>
-              <p style="margin: 5px 0; font-size: 14px;">1140 Spring St NW suite 140, Atlanta, GA 30309</p>
-              <a href="https://maps.app.goo.gl/2cqneJbZZRNmtsb16?g_st=ic" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🗺️ Open in Maps</a>
-              <span style="margin: 0 8px; color: #999;">|</span>
-              <a href="https://landofathousandhills.com" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🌐 Website</a>
+            <div class="restaurant-card">
+              <h4>☕ Land of a Thousand Hills</h4>
+              <p>1140 Spring St NW suite 140, Atlanta, GA 30309</p>
+              <a href="https://maps.app.goo.gl/2cqneJbZZRNmtsb16?g_st=ic" target="_blank" rel="noopener noreferrer">🗺️ Open in Maps</a>
+              <span class="separator">|</span>
+              <a href="https://landofathousandhills.com" target="_blank" rel="noopener noreferrer">🌐 Website</a>
             </div>
-            <div style="background: white; padding: 15px; margin: 10px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-              <h4 style="margin: 0 0 8px 0; color: #ff3b7a;">☕ Daydreamer Coffee</h4>
-              <p style="margin: 5px 0; font-size: 14px;">736 Peachtree St NE, Atlanta, GA 30308</p>
-              <a href="https://maps.app.goo.gl/xhC6tShTTxrCTLUT6?g_st=ic" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🗺️ Open in Maps</a>
-              <span style="margin: 0 8px; color: #999;">|</span>
-              <a href="https://daydreamer.coffee" target="_blank" style="color: #ff3b7a; text-decoration: none; font-weight: 600;">🌐 Website</a>
+            <div class="restaurant-card">
+              <h4>☕ Daydreamer Coffee</h4>
+              <p>736 Peachtree St NE, Atlanta, GA 30308</p>
+              <a href="https://maps.app.goo.gl/xhC6tShTTxrCTLUT6?g_st=ic" target="_blank" rel="noopener noreferrer">🗺️ Open in Maps</a>
+              <span class="separator">|</span>
+              <a href="https://daydreamer.coffee" target="_blank" rel="noopener noreferrer">🌐 Website</a>
             </div>
           </div>
         </div>
